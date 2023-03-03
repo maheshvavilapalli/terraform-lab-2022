@@ -4,5 +4,6 @@ resource "aws_instance" "web" {
   availability_zone = "us-east-1a"
   tags = {
     Name = "HelloWorld-dev"
+    env = "Dev"
   }
 }
